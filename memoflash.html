@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MemoFlash — Sohan Alibert</title>
+  <meta name="description" content="MemoFlash, application web de révision et d'apprentissage développée par Sohan Alibert en HTML, CSS, JavaScript, PHP et MySQL.">
+  <meta name="theme-color" content="#17181C">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="nav-bar">
+      <a class="brand" href="index.html" aria-label="Sohan Alibert — accueil">
+        <!--<span class="traffic" aria-hidden="true"><i></i><i></i><i></i></span>-->
+        <span>Sohan Alibert</span>
+      </a>
+      <nav aria-label="Navigation principale">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html#projets">Projets</a></li>
+          <li><a href="index.html#jeux">Jeux &amp; Démos</a></li>
+          <li><a href="index.html#apropos">À propos</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenu" class="container">
+    <a class="back-link" href="index.html#projets"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 3L5 8l5 5"/></svg>Retour aux projets</a>
+
+    <div class="detail-hero">
+      <div class="media" data-placeholder="Capture de l'interface à ajouter : assets/memoflash-index.png">
+        <img src="assets/memoflash-index.png" alt="Interface de l'application web MemoFlash" onerror="this.hidden=true">
+      </div>
+    </div>
+
+    <div class="detail-title">
+      <p class="eyebrow">Application web</p>
+      <h1>MemoFlash</h1>
+      <p class="lead">Application web de révision et d'apprentissage. Un projet interactif qui montre aussi mes compétences web.</p>
+    </div>
+
+    <section class="detail-section" aria-labelledby="techs">
+      <h2 id="techs">Technologies utilisées</h2>
+      <ul class="chips">
+        <li class="chip practiced">HTML</li>
+        <li class="chip practiced">CSS</li>
+        <li class="chip practiced">JavaScript</li>
+        <li class="chip practiced">PHP</li>
+        <li class="chip practiced">MySQL</li>
+      </ul>
+    </section>
+
+    <section class="detail-section" aria-labelledby="fonctions">
+      <h2 id="fonctions">Fonctionnalités</h2>
+      <ul class="check-list">
+        <li>Quiz personnalisés</li>
+        <li>Flashcards simples</li>
+        <li>Création d'ensembles de révisons</li>
+        <li>Statistiques détaillées par classe</li>
+      </ul>
+    </section>
+
+    <section class="detail-section" aria-labelledby="lien">
+      <h2 id="lien">Voir le projet</h2>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://memoflash.fr/" aria-disabled="false" target="_blank" rel="noopener noreferrer">Lien vers mémoflash</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <h2>Sohan Alibert</h2>
+          <p>À la recherche d'un stage en studio de jeu vidéo.</p>
+        </div>
+        <div class="footer-links">
+          <a class="btn btn-primary" href="index.html#contact">Me contacter</a>
+          <a class="btn" href="index.html#projets">Autres projets</a>
+        </div>
+      </div>
+      <p class="copyright">© <span data-year>2026</span> Sohan Alibert.</p>
+    </div>
+  </footer>
+</body>
+</html>

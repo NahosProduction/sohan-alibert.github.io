@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GB Studio Games - Sohan Alibert</title>
+  <meta name="description" content="Trois jeux rétro créés avec GB Studio par Sohan Alibert, disponibles sur itch.io, avec des versions physiques.">
+  <meta name="theme-color" content="#17181C">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="nav-bar">
+      <a class="brand" href="index.html" aria-label="Sohan Alibert — accueil">
+        <!--<span class="traffic" aria-hidden="true"><i></i><i></i><i></i></span>-->
+        <span>Sohan Alibert</span>
+      </a>
+      <nav aria-label="Navigation principale">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html#projets">Projets</a></li>
+          <li><a href="index.html#jeux">Jeux &amp; Démos</a></li>
+          <li><a href="index.html#apropos">À propos</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenu" class="container">
+    <a class="back-link" href="index.html#projets"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 3L5 8l5 5"/></svg>Retour aux projets</a>
+
+    <div class="detail-title">
+      <p class="eyebrow">Jeux rétro · GB Studio</p>
+      <h1>GB Studio Games</h1>
+      <p class="lead">Trois jeux créés avec GB Studio et publiés sur itch.io. J'ai aussi réalisé des versions physiques de mes jeux.</p>
+    </div>
+
+    <dl class="facts">
+      <div class="fact"><dt>Outil</dt><dd>GB Studio</dd></div>
+      <div class="fact"><dt>Jeux</dt><dd>3 jeux publiés</dd></div>
+      <div class="fact"><dt>Diffusion</dt><dd>itch.io + versions physiques</dd></div>
+      <div class="fact"><dt>Outils associés</dt><dd>Tiled, Piskel, GB studio</dd></div>
+    </dl>
+
+    <section class="detail-section" aria-labelledby="jeux">
+      <h2 id="jeux">Les trois jeux</h2>
+      <div class="gb-detail">
+
+        <!-- Trois emplacements : titre, capture, description, lien itch.io à renseigner -->
+        <article class="handheld">
+          <div class="screen-frame">
+            <div class="media" data-placeholder="Capture à ajouter : assets/gb-game-1.png">
+              <img src="assets/gb-game-1.png" alt="Capture d'écran du jeu GB Studio n°1" loading="lazy" onerror="this.hidden=true">
+            </div>
+          </div>
+          <h3>Manga Tournament</h3>
+          <p>Jeu de combat fortement inspiré de Street Fighter II, à une exception près : les personnages...</p>
+          <!-- Si jouable dans le navigateur : <div class="badge-row"><span class="badge ok">Jouable dans le navigateur</span></div> -->
+          <div class="btn-row"><a class="btn btn-primary" href="https://nahos-production.itch.io/manga-tournament" aria-disabled="false" target="_blank" rel="noopener noreferrer">Page du jeu</a></div>
+          <div class="dpad" aria-hidden="true"><span class="cross"></span><span class="ab"><i></i><i></i></span></div>
+        </article>
+
+        <article class="handheld">
+          <div class="screen-frame">
+            <div class="media" data-placeholder="Capture à ajouter : assets/gb-game-2.png">
+              <img src="assets/gb-game-2.png" alt="Capture d'écran du jeu GB Studio n°2" loading="lazy" onerror="this.hidden=true">
+            </div>
+          </div>
+          <h3>Teacher Fighter</h3>
+          <p>Jeu dans lequel vous affrontez vos professeurs dans des combats épiques (ou presque)!</p>
+          <div class="btn-row"><a class="btn btn-primary" href="https://nahos-production.itch.io/teacher-fighter" aria-disabled="false" target="_blank" rel="noopener noreferrer">Page du jeu</a></div>
+          <div class="dpad" aria-hidden="true"><span class="cross"></span><span class="ab"><i></i><i></i></span></div>
+        </article>
+
+        <article class="handheld">
+          <div class="screen-frame">
+            <div class="media" data-placeholder="Capture à ajouter : assets/zleda-template.png">
+              <img src="assets/zleda-template.png" alt="Capture d'écran du jeu GB Studio n°3" loading="lazy" onerror="this.hidden=true">
+            </div>
+          </div>
+          <h3>Zelda Template</h3>
+          <p>Pack de ressources pour créer un Zelda like sur GB studio</p>
+          <div class="btn-row"><a class="btn btn-primary" href="https://nahos-production.itch.io/zelda-template" aria-disabled="false" target="_blank" rel="noopener noreferrer">Page itch.io</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="detail-section" aria-labelledby="physique">
+      <h2 id="physique">Versions physiques</h2>
+      <p>J'ai également réalisé des versions physiques de mes jeux.</p>
+      <div class="physical" style="margin-top:1rem">
+        <div class="media" style="border-radius:16px;border:1px solid var(--border)" data-placeholder="Photo à ajouter : assets/gb-physique-1.jpg">
+          <img src="assets/gb-physique-1.jpg" alt="Version physique d'un de mes jeux GB Studio" loading="lazy" onerror="this.hidden=true">
+        </div>
+        <div class="media" style="border-radius:16px;border:1px solid var(--border)" data-placeholder="Photo à ajouter : assets/gb-physique-2.jpg">
+          <img src="assets/gb-physique-2.jpg" alt="Autre version physique d'un de mes jeux GB Studio" loading="lazy" onerror="this.hidden=true">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <h2>Sohan Alibert</h2>
+          <p>À la recherche d'un stage en studio de jeu vidéo.</p>
+        </div>
+        <div class="footer-links">
+          <a class="btn btn-primary" href="index.html#contact">Me contacter</a>
+          <a class="btn" href="index.html#projets">Autres projets</a>
+        </div>
+      </div>
+      <p class="copyright">© <span data-year>2026</span> Sohan Alibert.</p>
+    </div>
+  </footer>
+</body>
+</html>

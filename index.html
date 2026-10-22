@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sohan Alibert — Game Developer · Game Designer</title>
+  <meta name="description" content="Portfolio de Sohan Alibert, créateur de jeux vidéo : game design, programmation, level design et sound design. À la recherche d'un stage en studio.">
+  <meta name="theme-color" content="#17181C">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#projets">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="nav-bar">
+      <a class="brand" href="index.html" aria-label="Sohan Alibert — accueil">
+        <!--<span class="traffic" aria-hidden="true"><i></i><i></i><i></i></span>-->
+        <span>Sohan Alibert</span>
+      </a>
+      <nav aria-label="Navigation principale">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#jeux">Jeux &amp; Démos</a></li>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" aria-labelledby="hero-title">
+      <p class="eyebrow">Portfolio · Recherche de stage en studio</p>
+      <h1 id="hero-title">Sohan Alibert</h1>
+      <p class="role">Game Developer · Game Designer</p>
+      
+    </section>
+
+    <section id="projets" class="container" aria-label="Projets principaux">
+      <div class="project-grid">
+
+        <!-- Projet principal -->
+        <article class="window project-card featured">
+          <div class="window-bar" aria-hidden="true">
+            <span class="traffic"><i></i><i></i><i></i></span>
+            <span class="title">Spiderman Legacy</span>
+          </div>
+          <div class="media" data-placeholder="Image à ajouter : assets/spider-man-legacy-cover.jpg">
+            <img src="assets/spider-man-legacy-cover.jpg" alt="Capture d'écran de Spider-Man: Legacy, jeu de fan sous Unreal Engine 5" loading="eager" onerror="this.hidden=true">
+          </div>
+          <div class="card-body">
+            <span class="cat">Projet principal · Unreal Engine 5</span>
+            <h3><a href="spider-man-legacy.html">Spiderman Legacy</a></h3>
+            <p>Fangame (non officiel) que j'ai lancé et que je dirige depuis environ deux ans, avec une équipe de créateurs. Game design, level design, sound design.</p>
+            <span class="more" aria-hidden="true">Voir le projet<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3l5 5-5 5"/></svg></span>
+          </div>
+        </article>
+
+        <article class="window project-card">
+          <div class="window-bar" aria-hidden="true">
+            <span class="traffic"><i></i><i></i><i></i></span>
+            <span class="title">GB Studio Games</span>
+          </div>
+          <div class="media" data-placeholder="Image à ajouter : assets/gb-studio-cover.png">
+            <img src="assets/gb-studio-cover.png" alt="Capture d'écran d'un de mes jeux GB Studio" loading="lazy" onerror="this.hidden=true">
+          </div>
+          <div class="card-body">
+            <span class="cat">Jeux rétro · GB Studio</span>
+            <h3><a href="gb-studio-games.html">GB Studio Games</a></h3>
+            <p>Trois jeux publiés sur itch.io, avec des versions physiques (non commerciales).</p>
+            <span class="more" aria-hidden="true">Voir les jeux<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3l5 5-5 5"/></svg></span>
+          </div>
+        </article>
+
+        <article class="window project-card">
+          <div class="window-bar" aria-hidden="true">
+            <span class="traffic"><i></i><i></i><i></i></span>
+            <span class="title">MemoFlash</span>
+          </div>
+          <div class="media" data-placeholder="Image à ajouter : assets/memoflash-cover.png">
+            <img src="assets/memoflash-cover.png" alt="Interface de l'application web MemoFlash" loading="lazy" onerror="this.hidden=true">
+          </div>
+          <div class="card-body">
+            <span class="cat">Application web</span>
+            <h3><a href="memoflash.html">MemoFlash</a></h3>
+            <p>Application de révision en HTML, CSS, JavaScript, PHP et MySQL.</p>
+            <span class="more" aria-hidden="true">Voir le projet<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3l5 5-5 5"/></svg></span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ JEUX & DÉMOS ============ -->
+    <section id="jeux" class="section container" aria-labelledby="jeux-title">
+      <div class="section-head">
+        <h2 id="jeux-title">Jeux &amp; Démos</h2>
+        <p>Les projets que vous pouvez essayer directement.</p>
+      </div>
+      <div class="play-grid">
+
+        <!-- Pour chaque jeu : remplace le titre, l'image, la description et le lien itch.io -->
+        <article class="handheld">
+          <div class="screen-frame">
+            <div class="media" data-placeholder="Capture à ajouter : assets/gb-game-1.png">
+              <img src="assets/gb-game-1.png" alt="Capture d'écran du jeu GB Studio n°1" loading="lazy" onerror="this.hidden=true">
+            </div>
+          </div>
+          <h3>Manga Tournament</h3>
+          <p>Jeu de combat fortement inspiré de Street Fighter II, à une exception près : les personnages...</p>
+          <div class="badge-row"><span class="badge neutral">GB Studio</span></div>
+          <!-- Si le jeu est réellement jouable dans le navigateur, ajoute : <span class="badge ok">Jouable dans le navigateur</span> -->
+          <div class="btn-row"><a class="btn btn-primary" href="https://nahos-production.itch.io/manga-tournament" aria-disabled="false" target="_blank" rel="noopener noreferrer">Page du jeu</a></div>
+          <div class="dpad" aria-hidden="true"><span class="cross"></span><span class="ab"><i></i><i></i></span></div>
+        </article>
+
+        <article class="handheld">
+          <div class="screen-frame">
+            <div class="media" data-placeholder="Capture à ajouter : assets/gb-game-2.png">
+              <img src="assets/gb-game-2.png" alt="Capture d'écran du jeu GB Studio n°2" loading="lazy" onerror="this.hidden=true">
+            </div>
+          </div>
+          <h3>Teacher Fighter</h3>
+          <p>Jeu dans lequel vous affrontez vos professeurs dans des combats épiques (ou presque)!</p>
+          <div class="badge-row"><span class="badge neutral">GB Studio</span></div>
+          <div class="btn-row"><a class="btn btn-primary" href="https://nahos-production.itch.io/teacher-fighter" aria-disabled="false" target="_blank" rel="noopener noreferrer">Page du jeu</a></div>
+          <div class="dpad" aria-hidden="true"><span class="cross"></span><span class="ab"><i></i><i></i></span></div>
+        </article>
+
+        <article class="handheld">
+          <div class="screen-frame">
+            <div class="media" data-placeholder="Capture à ajouter : assets/smile-LOGO.png">
+              <img src="assets/smile-LOGO.png" alt="Capture d'écran du jeu GB Studio n°3" loading="lazy" onerror="this.hidden=true">
+            </div>
+          </div>
+          <h3>Smile.</h3>
+          <p>Jeu d'horreur dans lequel vous entrez dans l’esprit brisé du Batman qui rit (entrainement au sound design).</p>
+          <div class="badge-row"><span class="badge">Unreal Engine 5</span><span class="badge neutral">Sound design</span></div>
+          <div class="btn-row"><a class="btn btn-primary" href="https://nahos-production.itch.io/smile" aria-disabled="false" target="_blank" rel="noopener noreferrer">Page du jeu</a></div>
+        </article>
+
+        <article class="handheld">
+          <div class="screen-frame">
+            <div class="media" data-placeholder="Capture à ajouter : assets/sml-LOGO.png">
+              <img src="assets/sml-LOGO.png" alt="Capture d'écran de Spider-Man: Legacy" loading="lazy" onerror="this.hidden=true">
+            </div>
+          </div>
+          <h3>Spiderman Legacy</h3>
+          <p>Fangame non officiel, sans affiliation avec Marvel ni Sony. Jeu dans lequel le fils de Spiderman prend la relève de Peter.</p>
+          <div class="badge-row"><span class="badge">Unreal Engine 5</span><span class="badge neutral">Projet de fan</span></div>
+          <div class="btn-row"><a class="btn btn-primary" href="https://nahos-production.itch.io/spiderman-legacy" aria-disabled="false" target="_blank" rel="noopener noreferrer">Page du jeu</a></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ COMPÉTENCES ============ -->
+    <section id="competences" class="section container" aria-labelledby="comp-title">
+      <div class="section-head">
+        <h2 id="comp-title">Compétences</h2>
+        <p>Les outils pratiqués dans mes projets, et ceux que j'explore encore.</p>
+      </div>
+      <!-- Classe "practiced" = outil pratiqué dans des projets. Sans cette classe = outil exploré.
+           À ajuster par Sohan selon la réalité. -->
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Développement de jeux</h3>
+          <ul class="chips">
+            <li class="chip practiced">Unreal Engine 5</li>
+            <li class="chip practiced">GB Studio</li>
+            <li class="chip">RPG Maker XP</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Programmation web</h3>
+          <ul class="chips">
+            <li class="chip practiced">HTML</li>
+            <li class="chip practiced">CSS</li>
+            <li class="chip practiced">JavaScript</li>
+            <li class="chip practiced">PHP</li>
+            <li class="chip practiced">MySQL</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>3D et animation</h3>
+          <ul class="chips">
+            <li class="chip">Blender</li>
+            <li class="chip">Motion capture</li>
+            <li class="chip">Animation 3D</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Audio</h3>
+          <ul class="chips">
+            <li class="chip practiced">FL Studio</li>
+            <li class="chip practiced">Audacity</li>
+            <li class="chip practiced">SFX</li>
+            <li class="chip">Composition</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Vidéo et création graphique</h3>
+          <ul class="chips">
+            <li class="chip practiced">CapCut</li>
+            <li class="chip practiced">OBS</li>
+            <li class="chip practiced">Tiled</li>
+            <li class="chip">Piskel</li>
+            <li class="chip">Canva</li>
+            <li class="chip">Photopea</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Expérimentation</h3>
+          <ul class="chips">
+            <li class="chip">Projets électroniques</li>
+            <li class="chip">Production audio</li>
+          </ul>
+        </div>
+      </div>
+      <p class="legend"><span>Pratiqué</span><span>Exploré</span></p>
+    </section>
+
+    <!-- ============ À PROPOS ============ -->
+    <section id="apropos" class="section container" aria-labelledby="about-title">
+      <div class="section-head"><h2 id="about-title">À propos</h2></div>
+      <div class="about">
+        <p>Passionné par le développement de jeux vidéo, j'ai entamé mon parcours en tant que développeur autodidacte en 2023. J'ai passé trois années à expérimenter, à coder des prototypes et à partager mes avancées sous forme de devlogs sur YouTube.</p>
+        <p>En lançant et en dirigeant Spiderman Legacy, j'ai découvert les réalités d'un projet collectif qui évolue dans le temps. Mes autres projets m'ont permis d'explorer différentes technologies, de la création de jeux rétro au développement web.</p>
+        <p>Je souhaite aujourd'hui découvrir le fonctionnement d'un studio professionnel, apprendre auprès d'équipes expérimentées et continuer à progresser dans le développement de jeux vidéo.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ CONTACT / FOOTER ============ -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <h2>Sohan Alibert</h2>
+          <p>À la recherche d'un stage en studio de jeu vidéo. N'hésitez pas à me contacter.</p>
+        </div>
+        <div class="footer-links">
+          <a class="btn btn-primary" href="mailto:alibert.sohan@gmail.com" aria-disabled="false">E-mail</a>
+          <a class="btn" href="doc/CV_PATERNOSTRE_Mateo.pdf" aria-disabled="false" target="_blank" rel="noopener noreferrer href=" download>Mon CV</a>
+          <a class="btn" href="https://www.linkedin.com/in/sohan-alibert" aria-disabled="false" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a class="btn" href="https://www.youtube.com/@NahosProduction" aria-disabled="false" target="_blank" rel="noopener noreferrer">YouTube</a>
+        </div>
+      </div>
+      <p class="copyright">© <span data-year>2026</span> Sohan Alibert. Spiderman Legacy est un projet de fan non officiel, sans affiliation avec Marvel, Sony ou leurs sociétés affiliées.</p>
+    </div>
+  </footer>
+</body>
+</html>
